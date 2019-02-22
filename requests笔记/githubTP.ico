@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="b384be6cfcfcb8f4eafdebfb80f8b173">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>发现 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://explore">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/explore">
+<meta id="znonce" name="znonce" content="5fa0c3691db845a799e90070261770bc">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi page-explore">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li current" id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+
+<div id="zh-recommend">
+<div id="zh-recommend-title" class="page-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+<span>编辑推荐</span>
+<a href="/explore/recommendations" class="zg-link-gray zg-right" data-za-c="explore" data-za-a="visit_explore_recommendations" data-za-l="editor_recommendations_more"><span>更多推荐 &raquo;</span></a>
+</div>
+<div id="zh-recommend-list">
+
+
+<div class="top-recommend-feed feed-item">
+<h2><a class="question_link" href="/question/267052045/answer/527627280" target="_blank" data-id="21253397" data-za-element-name="Title">
+大公司和小公司的财务差别在哪里？
+</a></h2>
+<div class="avatar">
+<a title="猫大叔"
+data-hovercard="p$t$chashu123"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/chashu123">
+<img src="https://pic3.zhimg.com/600ac10c7b16590ffe31d61fd81b4587_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+
+<div class="feed-main">
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$chashu123"
+target="_blank" href="/people/chashu123"
+>猫大叔</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">注册会计师(CPA)持证人</span>
+
+
+<span title="微信公众号：猫大叔的财会窝，财会专著《你的随身财务手册》正在热卖中。。。" class="bio">
+微信公众号：猫大叔的财会窝…
+</span>
+</span>
+</div>
+<div class="zm-item-rich-text" data-resourceid="21253397" data-action="/answer/content">
+<div class="zh-summary summary clearfix">
+
+这个我顶大公司，我们集团社招进来的财务人员，大公司的综合素质要高于小公司，招聘时HR也会优先考虑大公司跳槽过来的。 一、大公司专注于财务管理，小公司专注于账务处理当然不对绝对，但大公司出身的会计对财务管理的概念理解的更透彻，如果公司有什么管…
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >文章</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/48922718" data-za-element-name="Title">知乎法律领域一周热点（2018.11.06-11.13）</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >文章</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/49513099" data-za-element-name="Title">亲妈扇孩子视频背后：管不住的情绪，就是反扑的恶虎</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >游民星空独家专栏</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/49409278" data-za-element-name="Title">《overkill的行尸走肉》评测7.5分 步步为营，硬核合作</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >文章</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/49458348" data-za-element-name="Title">我们不是杠精！但是《流浪猫鲍勃》中的8个养猫错误必须指出来</a></h2>
+</div>
+
+
+</div>
+</div>
+<div class="explore-tab" id="js-explore-tab">
+<a class="zg-anchor-hidden" name="daily-hot"></a>
+<a class="zg-anchor-hidden" name="monthly-hot"></a>
+<ul class="tab-navs clearfix">
+<li class="tab-nav"><a class="anchor" href="#daily-hot" data-za-c="explore" data-za-a="visit_explore_daily_trendings" data-za-l="explore_daily_trendings">今日最热</a></li>
+<li class="tab-nav"><a class="anchor" href="#monthly-hot" data-za-c="explore" data-za-a="visit_explore_monthly_trendings" data-za-l="explore_monthly_trendings">本月最热</a></li>
+</ul>
+<div class="tab-panel">
+<div data-type="daily" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/271777574/answer/529774162" target="_blank" data-id="22670088" data-za-element-name="Title">
+请问日本人为什么如此喜欢动漫，或者说能不能讲解一下日本的动漫文化？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="126392350"
+data-atoken="529774162"
+data-collapsed="0"
+data-created="1541995177"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/271777574/answer/529774162">
+<meta itemprop="answer-id" content="126392350">
+<meta itemprop="answer-url-token" content="529774162">
+<a class="zg-anchor-hidden" name="answer-126392350"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>122</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">122</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yie-jia-tong"
+target="_blank" href="/people/yie-jia-tong"
+>叶佳桐</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/yie-jia-tong#hilightbadge" target="_blank">ACG、动漫、动画、漫画话题优秀回答者</a></span>
+
+
+
+<span title="孤独的怪物" class="bio">
+孤独的怪物
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="122">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">122</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="22670088" data-action="/answer/content" data-author-name="叶佳桐" data-entry-url="/question/271777574/answer/529774162">
+
+<textarea hidden class="content">&lt;p&gt;日本人喜欢动画是真的，生活中都习以为常的使用。你走在日本大街小巷，都可以看到动画的宣传。&lt;/p&gt;&lt;p&gt;就连公务员和自卫队，都用动画作为素材：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-cecdcced67eee384df93d1050f295cae_b.jpg&quot; data-rawwidth=&quot;415&quot; data-rawheight=&quot;457&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-89bb3deab1f219470a3ea8bb3f6bb790_b.jpg&quot; class=&quot;content_image&quot; width=&quot;415&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-b9e8d424ad0ad2c199e9ab4648a04835_b.jpg&quot; data-rawwidth=&quot;415&quot; data-rawheight=&quot;587&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-4bad600b4abf444626dd83eddfa8d4fd_b.jpg&quot; class=&quot;content_image&quot; width=&quot;415&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;连这种比较正经的政府工作都可以用动画来做宣传，可以看出来，日本人是真的喜欢动画。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我们都知道，手冢治虫被称为漫画之神，但为什么他能被如此评价，还要从漫画的创作手法开始讲起。漫画本身属于省略的艺术，主要胜在以符号表达，让人从心里还原作者想要表达的内容。这一点在意境上更像我们亚洲人习惯的表达：中国的山水画本身也是抽象写意的表达，而欧美主流的油画主打写实还原还有光影以假乱真。&lt;/p&gt;&lt;p&gt;因此，作为抽象表达和符号的漫画不仅仅是单纯的画和讲故事，表现手法本身也是非常非常重要的部分——你既然不能画出一个一看就是那么回事儿的东西，那你就要换着法子让人感受到那么回事儿。&lt;/p&gt;&lt;p&gt;所以漫画大师手冢治虫，首先是一个表达大师。他在《漫画的画法》（《漫画の描き方》里，详细介绍了应该用什么手法来表达各类东西。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-63751706999082ffc4c2c8555dffba8f_b.jpg&quot; data-rawwidth=&quot;415&quot; data-rawheight=&quot;352&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-fa8818475fae01b2525f612a9ecb8261_b.jpg&quot; class=&quot;content_image&quot; width=&quot;415&quot;&gt;&lt;/figure&gt;&lt;p&gt;这些表现手法在现在的我们看来可能非常熟悉，但在那个大家还没有基础的表达符号的时代，这些东西无疑是非常神奇的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;同时，作为漫画之神的手冢治虫，并没有只停留于此。美国动画起步特别早，早在1930年代就开始用全动画打开了动画的时代。可是那时候的美国动画是极为烧钱的工作，需要大量人力物力才能完成。&lt;/p&gt;&lt;p&gt;而日本在战后属于没有枪没有炮的时代，而手冢治虫居然能使用黑科技，让动画能够每周在电视上播出。这就要提到他精准执行了省略精神的手法：不做全动画，就做少的。&lt;/p&gt;&lt;p&gt;就这样，手冢继续使用了更多省略手法，比如重复使用相同画面，比如口部动作不做完整口型，只需要人物嘴巴（开、闭、半开）三张……这些方法最终让《阿童木》的动画制作成本降低，成为了能够每周制作播放的作品。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这一切一切，都是因为动画和漫画属于省略的艺术，而日本人又偏偏能够将省略发扬光大。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;那么我们就又回到了一开始的问题：道理我都懂，漫画动画是符号语言占主导的作品，那么为什么偏偏是日本人喜欢？又为什么偏偏是日本人作出了这么多动画？&lt;/p&gt;&lt;p&gt;或许正是因为日本人喜欢简略表达，让人们用想象弥补出表达缺失的地方，这是日本人擅长的事情，所以省略艺术能够在这里发扬光大。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;对于漫画能够流行这件事，日本人自己也感到好奇，有人做了一些考察，我先摘抄一下。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-12c6262901d4cdb5c75a620d367bb59f_b.jpg&quot; data-rawwidth=&quot;397&quot; data-rawheight=&quot;244&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-4ec59abfdb829f21c995984eae609d18_b.jpg&quot; class=&quot;content_image&quot; width=&quot;397&quot;&gt;&lt;/figure&gt;&lt;p&gt;引用地址：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.amamiyashion.com/entry/2016/08/04/193000&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;amamiyashion.com/entry/&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;2016/08/04/193000&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这位作者认为，日本人有俳句的文化，让日语能够传达纤细的感情。这一点其实就很符合咱们心里日本人的属性：纤细、谨慎、考虑很多。在文艺创作里，需要的更多是细腻的表达。因此日本人还有日语都含有类似的特质。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-1753cf1e79b19b78f1cfe9d5dfa900ac_b.jpg&quot; data-rawwidth=&quot;396&quot; data-rawheight=&quot;312&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-5d27599bd125ef82734996e44fa9057b_b.jpg&quot; class=&quot;content_image&quot; width=&quot;396&quot;&gt;&lt;/figure&gt;&lt;p&gt;同时，由于这些细腻的表达，让日本人内心也变得非常细致。的确，日语作为一个高语境语言，运用的时候不仅是语言本身表达方式，更注重的是双方所处环境、语境、关系、前情提要等等要素，才能还原出完整表达。因此日本人的确是不断浸泡在这种需要不断的解读和委婉表达的环境中的。自然，他们也就习惯了从相对有限的信息中获取其他需要得到的必须内容。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-1753cf1e79b19b78f1cfe9d5dfa900ac_b.jpg&quot; data-rawwidth=&quot;396&quot; data-rawheight=&quot;312&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-5d27599bd125ef82734996e44fa9057b_b.jpg&quot; class=&quot;content_image&quot; width=&quot;396&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;u&gt;引用地址：&lt;/u&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.usamihiro.info/entry/2016/02/14/175542&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;usamihiro.info/entry/20&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;16/02/14/175542&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这篇网络书评也提到，日本人因为周围人高度同质化，所以特别喜欢依赖周围的人的共识来表达。背景和知识所有人都一样，那么比起表达事实内容，更喜欢想方设法去和对方感同身受。这样的习惯也就实质上导致了他们想太多，顾虑过多，和人保持距离的习性，也是表达不清，造成误会的源泉。同时动画能够隐去很多现实里的成分，最大限度保持人们专注于不那么难看的地方，因此他们特别喜欢动画的表达形式——或者说省略的、符号意义的表达形式，也不奇怪了。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/50/v2-cecdcced67eee384df93d1050f295cae_200x112.jpg" data-rawwidth="415" data-rawheight="457" data-size="normal" data-caption="" data-watermark="original" data-original-src="v2-cecdcced67eee384df93d1050f295cae" data-watermark-src="v2-10f9ad91fad2181e923a0ed4c62d41fb" data-private-watermark-src="v2-89bb3deab1f219470a3ea8bb3f6bb790" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-cecdcced67eee384df93d1050f295cae_r.jpg">
+日本人喜欢动画是真的，生活中都习以为常的使用。你走在日本大街小巷，都可以看到动画的宣传。就连公务员和自卫队，都用动画作为素材： 连这种比较正经的政府工作都可以用动画来做宣传，可以看出来，日本人是真的喜欢动画。 我们都知道，手冢治虫被称为漫画…
+
+<a href="/question/271777574/answer/529774162" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 11:59" target="_blank" href="/question/271777574/answer/529774162">编辑于 昨天 12:05</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-22670088"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>3 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/26159261/answer/530052054" target="_blank" data-id="2646601" data-za-element-name="Title">
+当面临没有把握、无法控制的事，怎样缓解巨大的压力和焦虑感？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="126442806"
+data-atoken="530052054"
+data-collapsed="0"
+data-created="1542018737"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/26159261/answer/530052054">
+<meta itemprop="answer-id" content="126442806">
+<meta itemprop="answer-url-token" content="530052054">
+<a class="zg-anchor-hidden" name="answer-126442806"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>72</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">72</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$zhe-nu-hai-shen-shang-you-guang"
+target="_blank" href="/people/zhe-nu-hai-shen-shang-you-guang"
+>海鸥姐姐</a></span><span title="善用有效社交跨国玩转人生的内向型女孩，每天3位免费咨询" class="bio">
+善用有效社交跨国玩转人生的内向型女孩，…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="72">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">72</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2646601" data-action="/answer/content" data-author-name="海鸥姐姐" data-entry-url="/question/26159261/answer/530052054">
+
+<textarea hidden class="content">&lt;p&gt;真的是与题主同感，自己一度认为不做好充分准备，自己很难去应对各种挑战，还甚至认为自己在临时应变能力有”天生残缺”，但如今，自己虽然还是有凡事提前准备的习惯，但不再是过去那么焦虑，有时候甚至享受没有准备情况下，生活带来的各种意外，有种兵来将挡水来土掩的快感。在这里把自己总结的一些小心得分享给题主和有需要的人。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-78a2dddfe4b71b05b6ad47ea1a67b4d9_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;900&quot; data-rawheight=&quot;500&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-3542796f958527b8ce39f1f526950e52_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;900&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-78a2dddfe4b71b05b6ad47ea1a67b4d9_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;还记得高中和大学时候，每次考试前都要背着准备好的资料进考场，任何与考试无关的东西都不敢去碰，生怕受了干扰，“考试感觉”就没了，可结果证明，其实这个动作与考试结果没有太大关系，很大程度上，是抚慰自己内心巨大的压力和焦虑感。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;类似于课堂头脑风暴和即兴发挥的事情，能避免就避免，不能避免就尽量去选择一些记录的角色。这种习惯，使得自己在找工作时候，没有勇气和自信去找需要很多临场应变能力强的或者创意性的工作，无形中给自己设了非常多的限。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;后来逼着自己选择一份市场的工作，新媒体运营和活动策划组织等等，会面临不少根本无法准备的挑战，结果是像无头苍蝇一样，不尽人意，后来锻炼的多了，情况稍微好一点点。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-09de623851b975957802e694515ebc45_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;360&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-cbe4ae5a5e43e097a8d26e27bd834e9f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-09de623851b975957802e694515ebc45_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这种情况的飞跃改观还是在留学后，一下子来到一个完全陌生的国度，一个人，没有任何出国经验，每一刻一秒都是不可控不可预知的。课堂上，小组头脑风暴，随时即兴演讲，天哪，这完全就是家常便饭，想躲也躲不了，不然就接受挂科。假期出去旅行，自己又是喜欢独自一人，不想呆在家里发霉，就得去面对旅途中各种无法准备的未知。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但出乎意料，我并没有想象中做的那么糟糕，反而越来越游刃有余。因为我自己有了一套这样的方法体系：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（1）提前准备。&lt;/p&gt;&lt;p&gt;什么？还是这个方法，可别笑，预则立是王道，虽然无法准备百分百充分，但是这个不仅是给自己内心的一剂定心丸，还能为你的临场发挥和应变提供坚实的基础，甚至让你能把握更大机遇。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（2）孰能生巧。&lt;/p&gt;&lt;p&gt;人在熟悉的方面，尤其是已经成为了一种习惯，会形成无意识的条件反应，这个时候，哪怕面临挑战，没有太多准备，肯定反应的比别人快，所以尽可能把自己的硬件知识和技能通过刻意练习变成一种习惯。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（3）预知最坏结果。&lt;/p&gt;&lt;p&gt;面临未知，或多或少会有恐惧和担忧，会有压力和焦虑感，那就去预知最坏的结果，最坏的结果会对自己产生什么影响，自己是否能够接受这个后果，一旦有了这个预知，就是把未知一定程度变成可知，心里就不会那么不淡定了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（4）充足休息和保持运动习惯。&lt;/p&gt;&lt;p&gt;大脑不是铁打的，只有休息足够了，才能够更加专注，运动能够让我们更有精力，在你需要高精力的时候发挥最好的状态，这个看似常识但很多人都做不到。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（5）每天尝试一件不一样的事情，回家走一条不一样的路，哪怕是午餐点一份不一样的菜，这样是为了不断刺激自己的大脑和身体去提高适应能力，这种方式在面临突如其来的挑战，非常有帮助。&lt;/p&gt;&lt;p&gt;——END——&lt;/p&gt;&lt;p&gt;对具体如何操作以上的方式，感兴趣的小伙伴，可以私聊，不过，时间精力有限，每天3个免费咨询名额，喜欢我的回答，可以点个赞或者点个关注，就是我原创最大的动力^_^&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-dbd25c4fe90ed6f9b94b31eb32329922_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; class=&quot;content_image&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我是海鸥——一个善用有效社交跨国玩转人生的内向型女孩，每天3位免费咨询名额。&lt;/p&gt;&lt;a href=&quot;https://www.zhihu.com/people/zhe-nu-hai-shen-shang-you-guang/activities&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; class=&quot;internal&quot;&gt;知乎用户&lt;/a&gt;&lt;p&gt;你也许不懂如何有效社交，建立高质量社交圈，甚至跨国社交圈，为人生创造更多可能性，或者对海外工作、生活和学习有疑惑，可以主页私信我&lt;b&gt;&lt;a href=&quot;https://www.zhihu.com/people/zhe-nu-hai-shen-shang-you-guang/posts&quot; class=&quot;internal&quot;&gt;@海鸥姐姐&lt;/a&gt;&lt;/b&gt;，欢迎加入我的“有效社交达人进化营”，我会陪伴你，一起锐变成理想中的自己。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-9a13f03c4fa78d2b317e8a07bcb055ee_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="900" data-rawheight="500" data-watermark="watermark" data-original-src="v2-9a13f03c4fa78d2b317e8a07bcb055ee" data-watermark-src="v2-78a2dddfe4b71b05b6ad47ea1a67b4d9" data-private-watermark-src="v2-3542796f958527b8ce39f1f526950e52" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-9a13f03c4fa78d2b317e8a07bcb055ee_r.jpg">
+真的是与题主同感，自己一度认为不做好充分准备，自己很难去应对各种挑战，还甚至认为自己在临时应变能力有”天生残缺”，但如今，自己虽然还是有凡事提前准备的习惯，但不再是过去那么焦虑，有时候甚至享受没有准备情况下，生活带来的各种意外，有种兵来将…
+
+<a href="/question/26159261/answer/530052054" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 18:32" target="_blank" href="/question/26159261/answer/530052054">编辑于 昨天 18:32</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2646601"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>添加评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/58065417/answer/529762900" target="_blank" data-id="15447285" data-za-element-name="Title">
+你的猫懂事到什么地步？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="126390295"
+data-atoken="529762900"
+data-collapsed="0"
+data-created="1541994248"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/58065417/answer/529762900">
+<meta itemprop="answer-id" content="126390295">
+<meta itemprop="answer-url-token" content="529762900">
+<a class="zg-anchor-hidden" name="answer-126390295"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>630</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">630</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$qiao-yi-miao-73"
+target="_blank" href="/people/qiao-yi-miao-73"
+>妙苗苗</a></span><span title="兽医" class="bio">
+兽医
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="630">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">630</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="15447285" data-action="/answer/content" data-author-name="妙苗苗" data-entry-url="/question/58065417/answer/529762900">
+
+<textarea hidden class="content">&lt;p&gt;最新消息：领导说玳瑁已经离家出走四五天勾搭公猫去了，玳瑁认识回家的路，等她意识到自己不会生崽后自己就会回来了，所以目前没照片，等玳瑁回来了就有了。&lt;/p&gt;&lt;p&gt;另：玳瑁生的所有的娃，都不是玳瑁，也不知道为啥&lt;/p&gt;&lt;p&gt;我是玳瑁的分割线&lt;/p&gt;&lt;p&gt;我是个兽医，身上自带杀气，很少有猫猫狗狗愿意靠近我。我住的小区里，有一只玳瑁，是只小母猫，在我看来它长得很美，但是我们小区很多人都很讨厌它，觉着它又凶又丑。&lt;/p&gt;&lt;p&gt;我跟玳瑁第一次接触，是冬天的一个晚上。我下楼扔垃圾，玳瑁窝在垃圾箱旁边，我刚把垃圾扔下它就跳上去翻腾吃的。&lt;/p&gt;&lt;p&gt;垃圾多不干净啊，吃了容易得病，玳瑁个头又很小，我直接提溜着它脖子把它从垃圾箱上拿下来了。&lt;/p&gt;&lt;p&gt;玳瑁一脸震惊的望着我，我也是闲的，蹲下来一本正经的跟它讲，不准吃垃圾，垃圾会生病，我去给你拿吃的。&lt;/p&gt;&lt;p&gt;玳瑁好像听懂了，也不纠缠垃圾箱了，自己走到信箱的阴影里窝起来了。&lt;/p&gt;&lt;p&gt;我家里没有猫粮，我给它切了点鸡胸肉，拿下楼去，它还在原地等我。&lt;/p&gt;&lt;p&gt;它吃鸡胸肉吃的很慢，吃完后对着我露出了肚皮，我摸了摸它。&lt;/p&gt;&lt;p&gt;又过了几天，我下班回家，它在我家楼道口等我，我以为它又饿了，摸了摸它，准备回家给它切点鸡胸肉。但是它拉住了我的裤脚，喵喵的叫，很急切。&lt;/p&gt;&lt;p&gt;我跟着它来到小区里一处在建工程，在一个犄角旮旯的地方，找到了一个小窝，窝里有六只还没睁开眼的小猫，被粘在了粘鼠板上。&lt;/p&gt;&lt;p&gt;我抓过玳瑁一看，果然它身体的右侧几乎全秃了，还有很多血迹。它是怕小猫冻着，趴在小猫上给它们取暖，但是小猫被粘住会死，它又只能咬破自己的皮挣脱开，来找我救它的孩子。&lt;/p&gt;&lt;p&gt;我把大猫小猫都带回了家，家里不具备无菌环境，大小猫又急需要救治，我只能买了几瓶哇哈哈当蒸馏水用，先用食用油把它们身上的胶洗下来，再用烧热的哇哈哈给它们洗澡，拿着镊子一点点给它们除跳蚤，小猫还好，玳瑁身上的伤口太大，需要缝针，但是我手头没有手术工具。&lt;/p&gt;&lt;p&gt;我拍拍玳瑁的头，跟它说，先给你包扎下吧，明天给你缝针，你不要挣扎。&lt;/p&gt;&lt;p&gt;然后用棉签沾了碘伏给它消毒，拆了包医用纱布给它包扎，玳瑁一点也不闹，安安静静的，随我摆弄。为了方便它喂奶，纱布包过腹部的时候把它的奶头都露出来，玳瑁还给自己的奶头清理了一下。&lt;/p&gt;&lt;p&gt;第二天，我带着玳瑁和小猫去了单位，给玳瑁剃了毛，缝合了伤口，玳瑁一直很老实，打麻醉的时候也没有抓我，我摆弄小猫的时候它也没有什么反应。&lt;/p&gt;&lt;p&gt;后来玳瑁和小猫就一直养在单位了，直到它毛长好了，我又把它带回来，放在了小区里。&lt;/p&gt;&lt;p&gt;我和玳瑁就一直保持相安无事的状态，遇到它了，就给它喂点吃的，遇不到它，大约它就在逮老鼠，玳瑁是一只十分会抓老鼠的猫。&lt;/p&gt;&lt;p&gt;大约过了小半年，玳瑁又蹲在了我回家的必经之路，这次，它又带着我看了一窝小猫。&lt;/p&gt;&lt;p&gt;五只，它很骄傲。&lt;/p&gt;&lt;p&gt;我有啥办法呢，为了小猫不被祸祸，我把大猫小猫带回了单位，放在院子里养着，同事们轮流喂猫，沦为猫奴。&lt;/p&gt;&lt;p&gt;再后来，养大了这一窝小猫后，玳瑁不愿意回归野外，在跟它商量后，给它绝了育，被领导领走养在家里了。&lt;/p&gt;&lt;p&gt;照片我手机没存，等等我管领导要几张玳瑁的美照！&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+最新消息：领导说玳瑁已经离家出走四五天勾搭公猫去了，玳瑁认识回家的路，等她意识到自己不会生崽后自己就会回来了，所以目前没照片，等玳瑁回来了就有了。另：玳瑁生的所有的娃，都不是玳瑁，也不知道为啥我是玳瑁的分割线我是个兽医，身上自带杀气，很少…
+
+<a href="/question/58065417/answer/529762900" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 11:44" target="_blank" href="/question/58065417/answer/529762900">编辑于 13:49</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-15447285"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>78 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/300810361/answer/529891157" target="_blank" data-id="29123067" data-za-element-name="Title">
+在美国可不可以告黑人种族歧视？有没有告赢的先例？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="126413601"
+data-atoken="529891157"
+data-collapsed="0"
+data-created="1542005335"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/300810361/answer/529891157">
+<meta itemprop="answer-id" content="126413601">
+<meta itemprop="answer-url-token" content="529891157">
+<a class="zg-anchor-hidden" name="answer-126413601"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>99</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">99</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wang-rui-en"
+target="_blank" href="/people/wang-rui-en"
+>王瑞恩</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/wang-rui-en#hilightbadge" target="_blank">法律、律师话题优秀回答者</a></span>
+
+
+
+<span title="老王力气大无穷 双手举起纸灯笼" class="bio">
+老王力气大无穷 双手举起…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="99">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">99</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="29123067" data-action="/answer/content" data-author-name="王瑞恩" data-entry-url="/question/300810361/answer/529891157">
+
+<textarea hidden class="content">&lt;p&gt;白人如果受到有别于有色人种的不公正对待，的确可以起诉，也的确有告赢的先例。&lt;/p&gt;&lt;p&gt;但并不是告具体某一个黑人种族歧视，这一点 &lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/6da27e30252e93e42e27f70485e5c846&quot; data-hash=&quot;6da27e30252e93e42e27f70485e5c846&quot; data-hovercard=&quot;p$b$6da27e30252e93e42e27f70485e5c846&quot;&gt;@蒋晟&lt;/a&gt; 的回答解释了，侵犯平等权的主体一般是机构而非个人，这一点，黑人白人受到歧视时都一样。&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;白人因受到种族歧视而起诉并胜诉，比较早的例子是1976年&lt;i&gt;McDonald v. Santa Fe Trail Transportation,&lt;/i&gt; 427 U.S. 273 一案。&lt;/p&gt;&lt;p&gt;本案中，两名白人男性因为涉嫌职权侵占被公司开除。两人起诉公司，称还有一名少数族裔员工也有同样的嫌疑，却保住了饭碗。联邦法院作出判决：《1964年民权法案》第七章禁止任何形式的种族歧视，而不仅仅是禁止对少数族裔的歧视。这一判决推翻了低级法院“民权法案第七章不适用于保护白人”的判决。&lt;/p&gt;&lt;p&gt;在历史上，有不少所谓“优势族裔”受到不公正待遇并通过诉讼维护平等权的案例，较为集中在学校录取政策方面。比如&lt;i&gt;Regents&lt;/i&gt;of the&lt;i&gt;University of California v&lt;/i&gt;.&lt;i&gt;Bakke&lt;/i&gt;, 438 U.S. 265 (1978)，&lt;i&gt;Fisher v&lt;/i&gt;.&lt;i&gt;University of Texas&lt;/i&gt;, 579 U.S. ____ (2016)。 其中，优势族裔胜诉或者败诉的案例都有，黑人并没有本问题下一些回答认为的那么“无敌”。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+白人如果受到有别于有色人种的不公正对待，的确可以起诉，也的确有告赢的先例。但并不是告具体某一个黑人种族歧视，这一点 <a class="member_mention" href="//www.zhihu.com/people/6da27e30252e93e42e27f70485e5c846" data-hash="6da27e30252e93e42e27f70485e5c846" data-hovercard="p$b$6da27e30252e93e42e27f70485e5c846">@蒋晟</a> 的回答解释了，侵犯平等权的主体一般是机构而非个人，这一点，黑人白人受到歧视时都一样。--白人因受到种族歧视而起诉并胜诉…
+
+<a href="/question/300810361/answer/529891157" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 14:48" target="_blank" href="/question/300810361/answer/529891157">编辑于 昨天 14:53</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-29123067"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>6 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-c87c70b1162392461b8bf8d014ccccf2_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=529891157" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/293481737/answer/529576320" target="_blank" data-id="27495412" data-za-element-name="Title">
+有哪些神经科学上的事实，没有一定神经科学知识的人不会相信？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="126356333"
+data-atoken="529576320"
+data-collapsed="0"
+data-created="1541967570"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/293481737/answer/529576320">
+<meta itemprop="answer-id" content="126356333">
+<meta itemprop="answer-url-token" content="529576320">
+<a class="zg-anchor-hidden" name="answer-126356333"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>869</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">869</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$stardust-x"
+target="_blank" href="/people/stardust-x"
+>大地</a></span><span title="[ 公众号：人类旅程 ] 人文、自然、世界～～" class="bio">
+[ 公众号：人类旅程 ] 人文、自然、世界…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="869">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">869</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27495412" data-action="/answer/content" data-author-name="大地" data-entry-url="/question/293481737/answer/529576320">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;移魂换体，自我感知可以被人为操控到何种程度？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第一阶：换手 &lt;/b&gt; &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1045124243373158400&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;橡胶手幻觉&quot; data-poster=&quot;https://pic4.zhimg.com/80/v2-2869e12ae29d796def28e1bbcb03836f_b.jpg&quot; data-lens-id=&quot;1045124243373158400&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic4.zhimg.com/80/v2-2869e12ae29d796def28e1bbcb03836f_b.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;橡胶手幻觉&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1045124243373158400&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;日常生活中，我们对自己身体的识别与本体定位能力是理所当然并且毋庸置疑的，这是以“我”的视角看世界的基础，对身体所有权这种真实而特殊的感知状态是独一无二的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-9a35d60ee02f0e1274d55c8ea04b6196_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;463&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-4e37016f2015f76fed7c6085dca19b0f_b.jpg&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但是，若将一只真手遮蔽起来，在视线之内用一只仿真的橡胶手来代替，然后使用两把小刷子在真手和假手上施以同步的反复刷动刺激，在约十几秒至一分钟内就会产生“身体转移错觉”这种怪异的体验。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;此时，参与者虽然能够从心理上清晰的意识到这是假手、是外部物体，但在感觉上却不由自主、不可抗拒的将其当成了自己真正的手、接受其成为身体的一部分，会感觉到对于小刷子的触感来自橡胶手，让他们用另一只手指向真手时大多也会指向橡胶手，参与者对于真实手的感知漂移到了橡胶手。而在用锤子砸或针刺假手时，记录到的皮肤电反应和功能性磁共振扫描到的大脑激活区域与刺激真手的情形是一致的，也就是说身体所有权的转移在大脑中似乎真实的发生了。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-5bc6e64077be27d7a079ced0f90268e0_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;388&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-0efdea3f9ec403a38c984b8fb26a1c5a_b.jpg&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;figcaption&gt;示意图&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;橡胶手幻觉，是一种依赖于视觉、触觉和本体感觉在空间与时间上一致的、动态整合的多感官幻觉，人为改变感觉器官输入信息形成的错觉暂时覆盖了大脑中原本的身体表征，本体感觉漂移了。也就是说，当触觉信息与来自视觉的信息不匹配时，大脑仍然试图将获得到的信息进行整合。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但若对真手和假手的刺激不同步、摆放角度或方向不同、距离过远（超过30厘米）就都不会产生这种错觉或在程度上显著下降，对于看起来无生命的物体也不会发生身体所有权的转移现象。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;其他方式的同步刺激也可以，只要满足时空规则。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-607f6672381ed9f25e44ef69b6d4cef7_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;535&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-0f70a0f42e7109feb9b9abf0981bbee6_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-607f6672381ed9f25e44ef69b6d4cef7_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;甚至不需要直接刺激手部，而是在开颅手术中电击相应手指的初级体感皮层也能达到同样的诱导效果，外部自然的视觉输入和对内部大脑皮层的刺激形成了人为触发的多感官整合现象。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-bc5969c7ba76a223d8bc596a2431cc5d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;802&quot; data-rawheight=&quot;520&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-b510d8cc1834851fa8418f8ba3e71d1a_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;802&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-bc5969c7ba76a223d8bc596a2431cc5d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;使用同样的方法，也可以让老鼠相信它拥有了一条橡胶鼠尾。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ccd185801f70aebe7e316a4ad1adf8f3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;763&quot; data-rawheight=&quot;356&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-99f5da7d3f90dfe3766ac0720f54dfcf_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;763&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-ccd185801f70aebe7e316a4ad1adf8f3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第二阶：三只手&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果栩栩如生的橡胶手与真手同时出现在面前又将如何呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-6f76c4b280c717121fd2da8848aafd5d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1000&quot; data-rawheight=&quot;565&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-3a2656daf4802a6aab5363a048fa330b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1000&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-6f76c4b280c717121fd2da8848aafd5d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;此时，仅凭视觉无法区分出哪一只才是自己真实的手，但本体感觉却绝不会出错，能让你清晰的感知到自己的手。但是，恶魔的小刷子上阵了，同步的触觉刺激传入大脑之后。。。你就不淡定了，大脑中出现了冲突、犹疑不决。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;刷了一会之后，令人惊掉下巴的是。。。大脑通过接受真假双手同时作为身体一部分的方式解决了这一冲突。主观上，受试者报告的确有了三只手的感觉；客观上，使用刀子来威胁真手和假手时，测量到的受试者的应激反应是相同的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第三阶：移魂换体&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;真正的大招开始了～～既然视觉对于身体所有权的感知如此重要，那么用虚拟现实眼镜随意转换、延长视角会如何呢？灵魂会出窍吗？&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e49e612405abe189882bbf935dd65a08_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;655&quot; data-rawheight=&quot;331&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-65819cee7f83c192d9c749a1e4ec1040_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;655&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-e49e612405abe189882bbf935dd65a08_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在这个实验里，受试者带着VR眼镜躺在磁共振扫描仪中、只露出下半身，另外一个陌生人头上戴着摄像头躺在房间的角落中，二者都仰着头看向自己的下半身，而VR眼镜中显示的是摄像头的视角。这样，受试者看到的实际上是陌生人的下半身和远处在磁共振中自己真正的躯体。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;用木棍前端的白色小球来同步的触碰受试者和陌生人的身体，但在受试者的VR眼镜中将触碰他真实身体的画面剪辑掉了看不到。如此操作之后，受试者就感觉到陌生人的身体才是真正的自己，至于磁共振扫描仪中的那个人鬼才知道是谁、反正不是我。试验了不同的头部朝向和身体位置，结果均是如此。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1045125302300729344&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;身体转移错觉&quot; data-poster=&quot;https://pic2.zhimg.com/80/v2-f55ff9deff1812e3e9d167eaa4aa1f25_b.jpg&quot; data-lens-id=&quot;1045125302300729344&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic2.zhimg.com/80/v2-f55ff9deff1812e3e9d167eaa4aa1f25_b.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;身体转移错觉&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1045125302300729344&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;然后用刀子来威胁陌生人的身体，受试者的皮肤电反应和脑部应对危险的激活区域都显著增强，就好像是发生在他自己真实的身体上一样，而用中性的木铲子来做这个动作时则没什么反应。此时，若用锤子去砸扫描仪中真实的身体，多数受试者看到后基本上无动于衷。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;虽然仅仅是将第一人称视角进行了转换，但身体所有权的转移在这个实验里表现得是比较彻底的，就好象是灵魂真的转移到了别人的身体之中。通过这种方法，也可以将错觉转移到橡胶制作的假人体、甚至隐形身体上。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-2b0b7aaa896fb5aead52b67b0c3d7712_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;946&quot; data-rawheight=&quot;786&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-2aa31e1b50d42bf8270cfb36f6f9023b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;946&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-2b0b7aaa896fb5aead52b67b0c3d7712_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;并且可以和对方互换身体，用错觉转移后的、对方的手去握自己真正的手。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-0283d6a42b2d16f1f1a50462e634bf9e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;860&quot; data-rawheight=&quot;771&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-1c1fe8c36043392df3fd3a8168344c7a_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;860&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-0283d6a42b2d16f1f1a50462e634bf9e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;而最怪异的感觉，莫过于眼睛盯着面前的自己的同时与别人交谈。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-062f39dabd68c7de4c217be3393bf83b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;902&quot; data-rawheight=&quot;576&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-c94e67b329a539b9e72664e6579a718b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;902&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-062f39dabd68c7de4c217be3393bf83b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然，若想将这种怪异的感觉发挥到极致，那就是性别互换了，只要多花一些同步时间和不同的方式来进行适应就能做到。参与过实验的一名男性，在体验了光滑、白嫩的大长腿之后，摘掉VR眼镜不禁惊呼：怎么一会时间自己就长出了这么多腿毛？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第四阶：大小如意&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;前面的实验中，所转移的目标都是等比例大小的对象，若将尺寸放大或缩小会产生什么影响呢？这么多腿，你想要哪一条呢？&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-24c49070c5c41db3db52c51a4e70344c_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;622&quot; data-rawheight=&quot;488&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-1cfba3e9682853eb5f4e0e29dfd9e54c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;622&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-24c49070c5c41db3db52c51a4e70344c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;芭比娃娃还是巨人？&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-71a4b687ed79a8e72d50b4253654dcf0_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;624&quot; data-rawheight=&quot;488&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-8b9c6313106089f6f47c33538e059187_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;624&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-71a4b687ed79a8e72d50b4253654dcf0_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;实验表明，采用同样的同步刺激方式、在第一人称视角下，无论目标尺寸大小都可以顺利的产生身体转移错觉，主观报告和面对外部威胁时的皮肤电反应测量均与预期一致。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-3a662b6c36ab38ec01fbbfc396d0d9a1_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;637&quot; data-rawheight=&quot;500&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-a454d1230f92ca706bbe69a9f41e4704_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;637&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-3a662b6c36ab38ec01fbbfc396d0d9a1_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但这其中的关键之处在于，转移之后的、主观上的空间尺寸感受也随之发生了改变，当参与者体验小娃娃的身体所有权时，其它物体与空间都变得更大了、经历了一个“巨大的世界”，反之亦然。尽管他们对这些物体与环境都非常熟悉，但也无法消除身体转移错觉对视觉感知产生的影响。这表明身体所有权能够直接影响有意识的视觉感受，并不仅仅是视觉输入有所差异导致的，大脑中对身体空间与外部空间的表征之间存在着较强的相互关系。&lt;/p&gt;&lt;hr&gt;&lt;p&gt;人的身体意识对于生存至关重要，身体所有权的感知能够将自己的躯体与外部物体区分开并进行精确定位，以有效应对来自外部世界的危险。我们如何认识到四肢是身体的一部分，这一看似简单且理所当然的能力，其表象之下的神经机制实际上很难解答，例如躯体失认症患者就不能将肢体识别为自我的一部分。拥有一个身体及其在空间中位置的感觉，对于大脑而言是一项非常复杂的任务，需要不断整合不同感官的信息。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;自从Botvinick和Cohen在1998年发现橡胶手幻觉这种神奇的现象之后，科研界对此进行了广泛的研究，但仍不清楚身体表征的起源是天生的还是由感官经验塑造的，不过却为多感官整合的神经机制研究开辟了新的视角。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;虽然我们知道大脑的可塑性很强，但也没想到会如此轻易的被虚假的感官输入信号所欺骗。但这种自我感知可以被人为操控的扩展能力却也有着广泛的用途，在治疗幻肢痛、更容易接纳假肢等医疗应用之外，为消防员、士兵、工人等添加额外的机械臂，将自我意识投射到虚拟角色、机器人的身体以及远程操纵机械等领域也可能会发展出更为有效、完美的融合方法。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-ef9af470ba15a807a4744a17f9fa2d36_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;716&quot; data-rawheight=&quot;398&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-dc06a82ff1157199357af7778da3cf3e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;716&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-ef9af470ba15a807a4744a17f9fa2d36_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;------正文结束，小小的科幻两阶------&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第五阶：活在梦中&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;身体静止时，大脑通过整合多个感官的传入信号来定位身体在空间中的位置，而当身体运动起来之后增加了传出的信号，这会使得转移错觉能够更加流畅的发生。因此，若是辅以压感、振动以及干扰半规管信号制造平衡状态的设备，虚拟现实的感觉完全可以超越《头号玩家》演示的水平。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-325f85c4d40660c0d910a68d46d6421d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1920&quot; data-rawheight=&quot;1040&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-6e6b484cb83a7b45cf5b366178748906_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1920&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-325f85c4d40660c0d910a68d46d6421d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;虚拟世界可以令一切你能想到的和想不到的体验，向着更完美、更极端、无所不能的方向发展，对超常刺激的提供能力达到前所未有的高度与广度，可以与真实世界形成巨大的偏差，这种深度沉浸的梦境模式，令人难以自拔。。。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;第六阶：缸中之脑&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;亲爱的朋友，你对阴暗晦涩、苦难挣扎的人生失去信念和希望了吗？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-f8a9461fafab242915ad9a6a5da38075_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1191&quot; data-rawheight=&quot;670&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-bba3f52e2bb5bf577a52452efa196047_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1191&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-f8a9461fafab242915ad9a6a5da38075_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;本公司提供极致完美的服务、助您摆脱现实世界的桎梏、为您量身打造梦幻天堂，接入网络上线以后可以定制您的生活，抛却了身体器官的沉重拖累，您可以活得更加长久健康！我司提供各种体验套餐：帝王天下、霸道总裁、仙侠世界、女王传奇。。。。特殊爱好者还可以享受地狱模式哦～～8012年开展正式服务，告别阴霾灰暗、虚幻沉浮的人生、畅享巅峰感觉，名额有限、请您预缴定金：000XXX000&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;人生一世，虚渺无涯，望尽红尘，唯我心生。你还在等什么呢？来啊～～&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-5d9756b48dceec4024f3f1139f15ac25_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1200&quot; data-rawheight=&quot;626&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-bfe59918ee0f1cb1dea0e3163a438962_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1200&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-5d9756b48dceec4024f3f1139f15ac25_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;怎么赚钱？盈利模式，这还不简单，你以为第五阶虚拟游戏中堪比真人的陪练、陪玩、陪聊角色都是哪里来的？强人工智能哪有那么容易实现，再说还费电呢～～都成缸中之脑了，谁要不听话，地狱一个月套餐伺候，出来还不乖乖的给我扮演系统角色去。。。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;电影版：一个足智多谋的玩家，发现了极乐世界公司的惊天秘密：一个系统角色隐匿的向他发出了求救信息。。。。。。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这是真的还是假的？如果是你，要怎么办呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/Z4Fy3Vvmrw3YPDWwx7J1GA&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; data-image=&quot;https://pic4.zhimg.com/v2-a4cf4bcca3aa0816d8de2934d9c39cff_180x120.jpg&quot; data-image-width=&quot;341&quot; data-image-height=&quot;192&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;追寻超常刺激这种动物本能，如何令我们沉迷于游戏、垃圾食品、色情等欲望的沟壑中难以自拔？&lt;/a&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/fPOStisaDccH1mBOasJ4LA&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; data-image=&quot;https://pic3.zhimg.com/v2-15e0c8af7aa095d96db20f27d8eae6e2_180x120.jpg&quot; data-image-width=&quot;880&quot; data-image-height=&quot;495&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;大象吃活鱼、鹿马牛羊吃鸟和小鸡，食草动物也会偶尔开荤？&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/50/v2-32d6bf619e37d54bbe4e28556da0fa72_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="400" data-rawheight="463" data-watermark="watermark" data-original-src="v2-32d6bf619e37d54bbe4e28556da0fa72" data-watermark-src="v2-9a35d60ee02f0e1274d55c8ea04b6196" data-private-watermark-src="v2-4e37016f2015f76fed7c6085dca19b0f" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/50/v2-32d6bf619e37d54bbe4e28556da0fa72_r.jpg">
+<b>移魂换体，自我感知可以被人为操控到何种程度？</b> <b>第一阶：换手 </b> 日常生活中，我们对自己身体的识别与本体定位能力是理所当然并且毋庸置疑的，这是以“我”的视角看世界的基础，对身体所有权这种真实而特殊的感知状态是独一无二的。 但是，若将一只真手遮蔽起…
+
+<a href="/question/293481737/answer/529576320" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 04:19" target="_blank" href="/question/293481737/answer/529576320">编辑于 09:33</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27495412"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>55 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-b4fc4afd2ec1892df7261883e7f163b2_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-panel">
+<div data-type="monthly" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/299389480/answer/515202615" target="_blank" data-id="28807284" data-za-element-name="Title">
+为什么明明手边就是纸篓，但是还会有人把用过的纸扔进便池里？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123744047"
+data-atoken="515202615"
+data-collapsed="0"
+data-created="1540097959"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/299389480/answer/515202615">
+<meta itemprop="answer-id" content="123744047">
+<meta itemprop="answer-url-token" content="515202615">
+<a class="zg-anchor-hidden" name="answer-123744047"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>16K</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">16K</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wu-zhi-21-54"
+target="_blank" href="/people/wu-zhi-21-54"
+>无.知</a></span><span title="杠精世界里的一股清流" class="bio">
+杠精世界里的一股清流
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="16709">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">16709</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28807284" data-action="/answer/content" data-author-name="无.知" data-entry-url="/question/299389480/answer/515202615">
+
+<textarea hidden class="content">&lt;p&gt;谢邀&lt;/p&gt;&lt;p&gt;作为一个造纸行业的人，其实。。其实。。我很不明白为什么不把卫生纸扔进便池里而是放废纸篓，废纸篓是扔卫生巾的。。。&lt;/p&gt;&lt;p&gt;把卫生纸扔进马桶和便池里，纸就自然而然在化粪池降解了。厕纸从设计上来说就是不具有永久湿强度的。当然如果你用某达品牌的面巾纸擦屁屁，高湿强有可能堵塞以外，一般都面巾纸和厕纸从生产设计开始就是让你扔便池里面的。&lt;/p&gt;&lt;p&gt;如果你把纸扔进废纸篓，废纸篓的塑料袋消耗快，增加了塑料的无意义消费。厕纸和塑料袋在中国目前的状况下，就是焚烧和填埋。如果焚烧也还好，属于无害化处理。如果填埋这些塑料袋的污染只是转移到了地下。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;所以，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我建议，&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1.用厕纸擦屁屁就好了，不要用面巾纸。&lt;/p&gt;&lt;p&gt;2.把厕纸扔进便池，只把卫生巾放进纸篓。&lt;/p&gt;&lt;p&gt;-------分割线-------&lt;/p&gt;&lt;p&gt;谢谢大家的赞，有点受宠若惊。&lt;/p&gt;&lt;p&gt;既然如此，歪个楼，来点纸的小知识。&lt;/p&gt;&lt;p&gt;&lt;b&gt;1.纸的原料，纸浆&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-76d3c2c478ea74a9442949b97fa319c9_b.jpg&quot; data-rawwidth=&quot;216&quot; data-rawheight=&quot;211&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-fbde82f93acbf0059fd6f25d03fba29e_b.jpg&quot; class=&quot;content_image&quot; width=&quot;216&quot;&gt;&lt;/figure&gt;&lt;p&gt;就是这货，来自树木，秸秆，芦苇，竹子等等植物纤维。&lt;/p&gt;&lt;p&gt;造纸的过程很简单，就是加水，搅匀了，铺平了，再脱水干燥就是一张纸。 不同纸的区别主要就在于本身的结构不同，原料的不同，辅料化工品的不同。&lt;/p&gt;&lt;p&gt;拉了粑粑的纸，加水还是会回到这个状态，本身和蔬菜的细胞成分没什么区别。&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.纸是可再生原料&lt;/b&gt;&lt;/p&gt;&lt;p&gt;纸的来源是植物纤维，可以人工种植。然而塑料是石化产品，基于地下埋藏的石油，是不可再生的。&lt;/p&gt;&lt;p&gt;拉粑粑的纸扔掉，会变成分解者的食物。烧掉变成二氧化碳和水。然而塑料袋，根据成分不同，PVC袋子会释放出氯。也是不环保的做法，虽然袋子几分钱一个，但是为了这个共同的环境，还是少用为好。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-3820ad591ba3376878f3fade96560e3c_b.jpg&quot; data-rawwidth=&quot;835&quot; data-rawheight=&quot;359&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-341d26894110fe1762ba1999cfda1e0b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;835&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-3820ad591ba3376878f3fade96560e3c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;3.厕纸和面巾纸有什么区别&lt;/b&gt;&lt;/p&gt;&lt;p&gt;直接上图&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-7bca2f850c405e76a1dab8a30c7779ed_b.jpg&quot; data-rawwidth=&quot;330&quot; data-rawheight=&quot;291&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-a0330734f8769a4452d75379476da854_b.jpg&quot; class=&quot;content_image&quot; width=&quot;330&quot;&gt;&lt;/figure&gt;&lt;p&gt;这个图很形象吧，厕纸都是这么个轱辘，卷筒的。方便往卫生间墙上挂。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-cbbf68628a326019eff46e84f719e787_b.jpg&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;810&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-bb04fa663e1a44c38bcd669f6ff650fe_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-cbbf68628a326019eff46e84f719e787_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这个很熟悉吧，抽纸。饭店，餐厅大多这种。一般抽纸，若是不带香味的，就是餐巾纸，带香味的一般就是面巾纸。这种纸两层三层很薄的复合，随手擦拭成本也低。只要没有专门去宣传湿强度，这种也可以擦屁屁，不过不推荐。一般会有加填，微粒碳酸钙，比厕纸对屁屁略微狂野那么一点点。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-f68b55901cfd0a2e717287c46b401015_b.jpg&quot; data-rawwidth=&quot;750&quot; data-rawheight=&quot;750&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-8bb6a4dad3a27f247cd1a582648de991_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;750&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-f68b55901cfd0a2e717287c46b401015_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这个非常形象吧，小包面巾纸，也叫手帕纸，厚度一比。沾水湿了还能捏干了，展开还是一张纸。&lt;/p&gt;&lt;p&gt;然鹅，很多女性朋友的小包里都会有香喷喷的手帕纸，其中一个作用就是来嘘嘘。（不要问我怎么知道的）&lt;/p&gt;&lt;p&gt;当然，这也是为什么公厕要放纸篓，因为这个的确是带来了堵厕所的可能。我当然不会说让你随身带一大卷纸出门免得堵厕所。而是顺其自然，家里能用厕纸用厕纸，随手扔坑里，到外面了环境所限，随机应变 。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/50/v2-76d3c2c478ea74a9442949b97fa319c9_200x112.jpg" data-rawwidth="216" data-rawheight="211" data-size="normal" data-watermark="original" data-original-src="v2-76d3c2c478ea74a9442949b97fa319c9" data-watermark-src="v2-885bebe1dc6307054806af6d8a4f0d99" data-private-watermark-src="v2-fbde82f93acbf0059fd6f25d03fba29e" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-76d3c2c478ea74a9442949b97fa319c9_r.jpg">
+谢邀作为一个造纸行业的人，其实。。其实。。我很不明白为什么不把卫生纸扔进便池里而是放废纸篓，废纸篓是扔卫生巾的。。。把卫生纸扔进马桶和便池里，纸就自然而然在化粪池降解了。厕纸从设计上来说就是不具有永久湿强度的。当然如果你用某达品牌的面巾纸…
+
+<a href="/question/299389480/answer/515202615" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-21" target="_blank" href="/question/299389480/answer/515202615">编辑于 2018-10-22</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28807284"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>1156 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/299370212/answer/515244829" target="_blank" data-id="28802927" data-za-element-name="Title">
+为什么faker 没进总决赛少有人骂，UZI 止步 8 强舆论一边倒？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123751710"
+data-atoken="515244829"
+data-collapsed="0"
+data-created="1540102404"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/299370212/answer/515244829">
+<meta itemprop="answer-id" content="123751710">
+<meta itemprop="answer-url-token" content="515244829">
+<a class="zg-anchor-hidden" name="answer-123751710"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>4395</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">4395</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+<span class="name">知乎用户</span></span><span title="十载驻足赏雨晴，一生俯首拜阳明。" class="bio">
+十载驻足赏雨晴，一生俯首拜阳明。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="4395">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">4395</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28802927" data-action="/answer/content" data-author-name="张孤山" data-entry-url="/question/299370212/answer/515244829">
+
+<textarea hidden class="content">&lt;p&gt;你可以去看看faker这赛季的比赛录像，&lt;b&gt;他一个中单不单要carry，还要开团，还要保队友&lt;/b&gt;。往往一波团战，开团是他，扛伤是他，输出是他，收割还是他。就这样队友还怪他，他也不反驳，只说是自己的原因。&lt;/p&gt;&lt;p&gt;队伍让他拿carry型中单，他1v9拿命在C；让他拿支援英雄，他满地图跑都快算是个打野了；让他拿功能性英雄，他安安静静给队友当绿叶。他是三冠王，公认的英雄联盟历史第一人，他完全有理由且有资格膨胀。可他依旧像刚出道一样，所有时间都在训练，比任何人都专注。这样的选手谁会去骂他？谁忍心骂他？&lt;/p&gt;&lt;p&gt;RNG今年是拿了很多冠军，但这不是膨胀的理由。即便从UZI自己的过往来看，八强对比他的“双亚”都是很难看的。而且今年韩国俱乐部集体低迷，是最有机会的一次，结果死于自身的傲慢。&lt;/p&gt;&lt;p&gt;我就这么说吧，&lt;b&gt;faker三冠王还那么谦逊，依旧一天到晚除了吃饭睡觉就是训练也不交女朋友。赢了大家的，输了怪自己。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;s7决赛第三把赛点，面对发挥不佳的队友，仍旧选择服从队伍安排选扇子妈保AD，没有丝毫怨言。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;UZI连S赛冠军的边都没摸到过，就开始膨胀。他有什么资格膨胀？&lt;/p&gt;&lt;p&gt;舆论一边倒，不是没有原因的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.bilibili.com/video/av31768464%3Ffrom%3Dsearch%26seid%3D7054098747550584419&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;天秀联盟：LCK夏季赛Faker高光时刻，1V9真是苦啊！&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+你可以去看看faker这赛季的比赛录像，<b>他一个中单不单要carry，还要开团，还要保队友</b>。往往一波团战，开团是他，扛伤是他，输出是他，收割还是他。就这样队友还怪他，他也不反驳，只说是自己的原因。队伍让他拿carry型中单，他1v9拿命在C；让他拿支援英雄，…
+
+<a href="/question/299370212/answer/515244829" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-21" target="_blank" href="/question/299370212/answer/515244829">编辑于 2018-11-01</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28802927"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>378 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/299337791/answer/515156006" target="_blank" data-id="28795706" data-za-element-name="Title">
+如何评价罗云熙在《快乐大本营》的表现？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123735646"
+data-atoken="515156006"
+data-collapsed="0"
+data-created="1540093181"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/299337791/answer/515156006">
+<meta itemprop="answer-id" content="123735646">
+<meta itemprop="answer-url-token" content="515156006">
+<a class="zg-anchor-hidden" name="answer-123735646"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>254</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">254</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$si-yu-55-42-98"
+target="_blank" href="/people/si-yu-55-42-98"
+>思妤</a></span><span title="为你，千千万万遍。" class="bio">
+为你，千千万万遍。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="254">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">254</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28795706" data-action="/answer/content" data-author-name="思妤" data-entry-url="/question/299337791/answer/515156006">
+
+<textarea hidden class="content">&lt;p&gt;蟹腰。&lt;/p&gt;&lt;p&gt;一句话前提，&lt;b&gt;人是有多面性的。一个节目里的表现，也仅仅是一面。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;了解他的人，看了可能会更懂他，或者更喜欢他。&lt;/p&gt;&lt;p&gt;不了解的人呢？通过这个节目，也许能看到他的某些侧面。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但这不是全部，&lt;b&gt;看过他的作品，听过他的心声，认真去读懂他的思想和为人，也许才能更客观的来评价这个人。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仅仅从这个节目的侧面来说吧。&lt;/p&gt;&lt;p&gt;与昨天的《幻乐之城》里的带着忧郁王子气质的精致版罗云熙相比，《快乐大本营》的罗云熙更加具有幽默感和生活气息，显露出私下“逗比沙雕”的一面。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;快乐大本营里面玩游戏的片段可以看出，他确实玩得很投入，不过有时候还是有点小紧张，可能是第一次上这样大的综艺节目，有些在意自己的表现是否“合格”。我看得很乐，正因为他现在还没有“爆红”，他流露出来的小紧张小在意，懵懂的眼神，“耍帅”被反杀时候的腼腆笑容，都是这个阶段的他最难得宝贵的东西。有一天当他更加沉稳成熟，也许还会有人怀念起此时那个初崭头角的少年模样。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-1800e81be40fea4de8c40d05fe687930_b.jpg&quot; data-rawwidth=&quot;2048&quot; data-rawheight=&quot;3072&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-ee6adb0ebda26dd6f92ed48beb360b32_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2048&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-1800e81be40fea4de8c40d05fe687930_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;其实早在他从前参加的各种网络节目和《魔熙先生的云罗辑》里面就能看出，他是一个爱玩游戏、爱搞怪、具有综艺梗的少年。他自己也说私底下很喜欢玩游戏。《魔》里面有很多他和助理pk玩各种游戏的片段，能看出他很享受游戏里“通过策略取胜”的过程，他自己说觉得这就是游戏的乐趣。&lt;/p&gt;&lt;p&gt;节目里他也丝毫没有掩藏私下好玩调皮的这一面，玩游戏的时候总是出各种“搞怪奇招”。完全不顾所谓“偶像包袱”。&lt;/p&gt;&lt;p&gt;所以，这种孩童般的“沙雕”“好胜心”在我看来其实也蛮可爱蛮真实，因为作为观众更愿意看到的是明星真实的一面，而不是故意演出的人设。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-6af484501910030bb05234924330b6a6_b.jpg&quot; data-rawwidth=&quot;840&quot; data-rawheight=&quot;1017&quot; data-size=&quot;normal&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;840&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-6af484501910030bb05234924330b6a6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这里就要说回罗云熙这个人很逗的一些事迹。在他还是个小透明的时候，公司让他直播，他常常不爱走寻常路，吐槽公司给他准备的聊天内容太“官方”，想跟粉丝聊一些更有趣的东西，还叫粉丝们不要“告发”他。结果中途得知，公司的人都在看他的直播。。。自己笑过一番后又乖乖的慢慢切回官方话题部分。&lt;/p&gt;&lt;p&gt;&lt;b&gt;这个人为了“好玩”和真实，根本不知道什么叫形象人设。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;《香蜜》这部剧播出正火的时候，遇到他自己最唯美虐心的剧情上线。他根本没有抓住机会安利自己的“忧郁气质美男”形象，反而在微博发了一段让人笑抽的沙雕芭蕾舞作为700万粉丝福利。&lt;/p&gt;&lt;p&gt;在全网黑他黑得最厉害的几天，他也没有站出来为自己哭诉辩解。而是拍了一段搞笑视频笑着说“放宽心，显年轻”。&lt;/p&gt;&lt;p&gt;用他自己的话来说，他是&lt;b&gt;希望把阳光的一面留给观众。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-005c1bc190844cf8cd1a499439ea495a_b.jpg&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;1080&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-ceaa64f8ca43df3e76f6352f609cc5ab_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-005c1bc190844cf8cd1a499439ea495a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;所以，当他上综艺的时候，也是想要把自己的欢乐的一面展现出来吧。&lt;/p&gt;&lt;p&gt;作为本期节目里非主角位置的他，还是为节目贡献了不少笑料。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-c1f236887ad0ce5b413bd5b5fc0aa020_b.jpg&quot; data-rawwidth=&quot;849&quot; data-rawheight=&quot;477&quot; data-size=&quot;normal&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;849&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-c1f236887ad0ce5b413bd5b5fc0aa020_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e443fa6d2265daf77c145954d922a9ce_b.jpg&quot; data-rawwidth=&quot;1205&quot; data-rawheight=&quot;1440&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-d50a479d1834b1c9594aea6502fb5829_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1205&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-e443fa6d2265daf77c145954d922a9ce_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;另外让人颇有感触的是，他对于一些网络热议的敏感话题的回应。&lt;/p&gt;&lt;p&gt;问题一像是一个陷阱，问他戏份多是不是真的因为和《香蜜》的编剧关系很好。其实早前网络的谣言四起，就让他和剧组的编剧被网络暴力伤害颇深。明明是因为人物角色塑造和剧本需要，却被安上一些“他和编剧有非一般关系”的莫须有罪名。事实上，他确实和编剧团队关系很友好，但是如果为了“明哲保身”而撇清关系，无疑会伤害到朋友的感情，也会让观众觉得虚伪。&lt;/p&gt;&lt;p&gt;他的回答无疑是真诚而聪明的。他说，确实因为拍《香蜜》之后，和编剧老师的关系很好。但是他和导演、其他演员、道具、服装包括厨师等等剧组人员的关系都很好，因为剧组是一个非常融洽的大家庭。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-adc888456891b9ba566cc5654b66c165_b.jpg&quot; data-rawwidth=&quot;1517&quot; data-rawheight=&quot;1125&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-d3d537aa14d603b0582d5e93504ad7fa_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1517&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-adc888456891b9ba566cc5654b66c165_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;问题二也是最近网络流传的“捧杀”艺人的新型抹黑方式。他被问到自己的润玉和古天乐的杨过相比哪个更好。他的回答落落大方，表现了一个后辈的谦逊诚恳。&lt;/p&gt;&lt;p&gt;他说自己很欣赏古老师（用了尊称），能被和古天乐相提并论是自己的荣幸。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e0bc462319e5d623618beb043680624e_b.jpg&quot; data-rawwidth=&quot;1629&quot; data-rawheight=&quot;1032&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-48a97e95fac7fd35ab3f576490b3dfb6_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1629&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-e0bc462319e5d623618beb043680624e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;实际上，对于这个问题，很多网友确确实实认为，他有潜力，做“白古”的接班人，至少从此在古偶圈里应该有一席之地。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这两个回答表现出他的高情商，也从侧面反映出，作为一个步入而立之年的人，&lt;b&gt;他的内心其实是沉稳笃定的，摆得正自己的位置&lt;/b&gt;。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-c4134c2c36037ad6d6f915e14b34ab52_b.jpg&quot; data-rawwidth=&quot;2048&quot; data-rawheight=&quot;3072&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-b7da61956258d6cb3d919d13cd8494df_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2048&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-c4134c2c36037ad6d6f915e14b34ab52_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;演艺圈里，浮浮沉沉是是非非，大起大落，都不是新鲜话题。&lt;/p&gt;&lt;p&gt;&lt;b&gt;但是踏实诚恳的人从来一定都有一席之地。只是时间和机遇问题。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;未来可期，愿这个少年永葆初心。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/50/v2-c5ecca23b652501d3dbeb920c40e0780_200x112.jpg" data-rawwidth="2048" data-rawheight="3072" data-size="normal" data-watermark="watermark" data-original-src="v2-c5ecca23b652501d3dbeb920c40e0780" data-watermark-src="v2-1800e81be40fea4de8c40d05fe687930" data-private-watermark-src="v2-ee6adb0ebda26dd6f92ed48beb360b32" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/50/v2-c5ecca23b652501d3dbeb920c40e0780_r.jpg">
+蟹腰。一句话前提，<b>人是有多面性的。一个节目里的表现，也仅仅是一面。</b>了解他的人，看了可能会更懂他，或者更喜欢他。不了解的人呢？通过这个节目，也许能看到他的某些侧面。 但这不是全部，<b>看过他的作品，听过他的心声，认真去读懂他的思想和为人，也许才…</b>
+
+<a href="/question/299337791/answer/515156006" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-21" target="_blank" href="/question/299337791/answer/515156006">编辑于 2018-10-21</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28795706"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>23 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-f9178c6e688d527d82606121e4121635_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/299370212/answer/515298031" target="_blank" data-id="28802927" data-za-element-name="Title">
+为什么faker 没进总决赛少有人骂，UZI 止步 8 强舆论一边倒？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123761451"
+data-atoken="515298031"
+data-collapsed="0"
+data-created="1540107819"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/299370212/answer/515298031">
+<meta itemprop="answer-id" content="123761451">
+<meta itemprop="answer-url-token" content="515298031">
+<a class="zg-anchor-hidden" name="answer-123761451"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3755</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">3755</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$cbqonly"
+target="_blank" href="/people/cbqonly"
+>CBQonly</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="3755">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">3755</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28802927" data-action="/answer/content" data-author-name="CBQonly" data-entry-url="/question/299370212/answer/515298031">
+
+<textarea hidden class="content">&lt;p&gt;更新一波，评论有人说我就是想喷uzi，我觉得我个人已经说的很友好了，大部分时间我都在讲李哥，至于说我戾气重，是因为我觉得这个题目感觉像是拿李哥洗白uzi，小狗要怎么洗都行，别拿faker洗行吗？rng粉丝之前在faker直播间刷嘲讽的时候我当没看见？连看直播都是得屏蔽评论的&lt;/p&gt;&lt;p&gt;-----------------&lt;/p&gt;&lt;p&gt;以下原答案&lt;/p&gt;&lt;p&gt;果然来了，我就知道会有这种问题，去年半决赛，skt和rng，3:2，很多人骂uzi，但是更多人安慰他，他尽力了。&lt;/p&gt;&lt;p&gt;s7的faker五把加里奥中路清兵上下路野区需要他他马上跑去，满地图都是加里奥，s7总决赛，被三星三比零是吧，其他路都崩了中路依然稳，第三把faker死前把e开给了bang，最后他哭了，他没怪队友，他说他哭是因为没有想到队伍会因为自己输，比赛结束以后第一次直播他说这次我们没打好，大家不要难过我们会更加努力。&lt;/p&gt;&lt;p&gt;今年上野演他，还沦为替补，和kz的比赛他上那个时候他已经替补多时，并且和kz的比赛就算赢了也不能进季后赛了，然而瓜皮浪了吗？没有，中路稳稳的守着吧，bdd和花生两个人围着也没把他杀了，偶尔还得去野区逛一逛，耐不住黑皇送啊，被三个人围着打躲了我也不知道几个技能，最后死了，然而队友没有什么用，白扛那么久，最后依然c，冒泡赛和三星打更是挑不出毛病，今天uzi和faker一样吗？他队友不给力？全队资源他拿最多可是浪到飞起来。实力不够输了没话说，可是连比赛都不认真打就想拿冠军，去梦里拿吧。我李哥还有三个s赛的冠军，要按你们的算我李哥冠军拿了十几个了，依然队友让他当狗就当狗，队友不行也拿命c，你小狗s赛的冠军都没拿到一个，就膨胀到不把对面选手当人了？要狂也要有狂的能力，如果没有能力还不好好打，承载着那么多人的希望，不被骂才怪。&lt;/p&gt;&lt;p&gt;评论有人说我们不该寄希望于选手，我觉得这个我不能同意，电竞选手这个职业本身就有特殊性，他的直播广告代言很多都是粉丝带给他的，粉丝给他一是因为他厉害，二是觉得他可以圆lpl夺冠的梦，其实你不能拿冠军也没关系，但至少要让我们看到精彩的比赛端正态度，另外faker说过，粉丝有理由要求我们赢！&lt;/p&gt;&lt;p&gt;恭喜ig!&lt;/p&gt;&lt;p&gt;不匿&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+更新一波，评论有人说我就是想喷uzi，我觉得我个人已经说的很友好了，大部分时间我都在讲李哥，至于说我戾气重，是因为我觉得这个题目感觉像是拿李哥洗白uzi，小狗要怎么洗都行，别拿faker洗行吗？rng粉丝之前在faker直播间刷嘲讽的时候我当没看见？连看直…
+
+<a href="/question/299370212/answer/515298031" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-21" target="_blank" href="/question/299370212/answer/515298031">编辑于 2018-11-11</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28802927"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>753 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/299343538/answer/515387749" target="_blank" data-id="28796962" data-za-element-name="Title">
+世界上有哪个国家哪个项目像中国男足一样一直退步的？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123777723"
+data-atoken="515387749"
+data-collapsed="0"
+data-created="1540117241"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/299343538/answer/515387749">
+<meta itemprop="answer-id" content="123777723">
+<meta itemprop="answer-url-token" content="515387749">
+<a class="zg-anchor-hidden" name="answer-123777723"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1102</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1102</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$pao-diao-de-melkor"
+target="_blank" href="/people/pao-diao-de-melkor"
+>跑调的Melkor</a></span><span title="思想纯洁，还闪烁着智慧的光芒 公众号：偶尔跑调 ，欢迎大家关注" class="bio">
+思想纯洁，还闪烁着智慧的光芒
+公众号：…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1102">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1102</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28796962" data-action="/answer/content" data-author-name="跑调的Melkor" data-entry-url="/question/299343538/answer/515387749">
+
+<textarea hidden class="content">&lt;p&gt;1909年，日本围棋棋手高部道平四段在让两子的情况下横扫中国棋坛所有高手&lt;/p&gt;&lt;p&gt;1960年6月，日本围棋代表团访问中国，团长的大名鼎鼎的濑越宪作名誉九段，队员有桥本宇太郎九段、坂田荣男九段、濑川良雄七段和铃木五良六段。五名日本棋手与中国当时的顶尖高手进行了总共三十盘的对局，中国棋手在一律受先的情况下只堪堪赢下两局。&lt;/p&gt;&lt;p&gt;1961年9月，日本围棋代表团又来了。估计是上次来的棋手有些强，中国棋手输得太惨，这回来的五个人明显低了一个档次：曲励起八段、小山靖男七段、伊藤友惠五段和两名业余棋手菊池康郎、安腾英雄。这次比赛是分先，一共四十局，中国棋手赢了多少呢？五局！而且有四局赢的是日本业余棋手。这是被围棋史永远记住的一战，日本代表团的伊藤友惠五段，是一位年过半百的老太太，居然对中国顶尖高手八战全胜。&lt;/p&gt;&lt;p&gt;1963年9月27日，陈祖德受先战胜杉内雅男，这是中国棋手第一次战胜日本九段。&lt;/p&gt;&lt;p&gt;1965年10月25日，陈祖德分先战胜岩田达明，这是中国棋手第一次分先战胜日本九段。&lt;/p&gt;&lt;p&gt;1973年8月6日，沈果孙战胜坂田荣男（当时是“十段”头衔），这是中国棋手第一次战胜有头衔的日本棋手。&lt;/p&gt;&lt;p&gt;1985年到1987年，聂卫平击败一众日本顶尖棋手，豪取中日围棋擂台赛11连胜，被誉为民族英雄&lt;/p&gt;&lt;p&gt;2005年，日本棋手张栩击败中国棋手俞斌夺得LG杯，这是日本棋手的最后一个世界冠军&lt;/p&gt;&lt;p&gt;2007年，张栩不敌李世石获得丰田杯亚军，从此之后日本棋手告别世界大赛决赛11年&lt;/p&gt;&lt;p&gt;2018年LG杯，身兼日本国内全部七大头衔，历史上对日本国内统治力最强（没有之一）的棋手井山裕太溃败于中国排名第十五的谢尔豪五段，获得亚军。这是日本11年后再次进入世界大赛决赛。&lt;/p&gt;&lt;p&gt;而随着井山裕太年龄的增长，日本棋手下一次进入世界大赛决赛还不知道要再等多久&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;…………分割线…………&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;真没想到能有这么多赞，那就趁机打个广告&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;公众号:偶尔跑调  欢迎关注&lt;/b&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+1909年，日本围棋棋手高部道平四段在让两子的情况下横扫中国棋坛所有高手1960年6月，日本围棋代表团访问中国，团长的大名鼎鼎的濑越宪作名誉九段，队员有桥本宇太郎九段、坂田荣男九段、濑川良雄七段和铃木五良六段。五名日本棋手与中国当时的顶尖高手进行…
+
+<a href="/question/299343538/answer/515387749" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-21" target="_blank" href="/question/299343538/answer/515387749">编辑于 2018-10-31</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28796962"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>278 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="explore_up" data-params='{}'></div>
+
+<div class="zm-side-section explore-side-section explore-side-section-roundtable">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="/roundtable" class="zg-link-gray zg-right" data-za-c="view_roundtable" data-za-a="visit_roundtable_home" data-za-l="explore_sidebar_trending_roundtable_more">更多圆桌 &raquo;</a>
+<h3>热门圆桌</h3>
+</div>
+<ul class="list hot-roundtables">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/duihuagaoshan"><img src="https://pic4.zhimg.com/v2-9b7e0a5846091f7897f52a8ff2688c71_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<a href="/roundtable/duihuagaoshan" target="_blank" data-hovercard="r$t$duihuagaoshan">从零开始玩户外</a>
+<div class="meta">
+<span>1453 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>69 个问题</span>
+</div>
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/shuziwannian"><img src="https://pic4.zhimg.com/v2-df18d7ed5b472ccf0c1b65ab96811d9c_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<a href="/roundtable/shuziwannian" target="_blank" data-hovercard="r$t$shuziwannian">爸妈迈入技术时代</a>
+<div class="meta">
+<span>2611 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>34 个问题</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+
+<a href="/topics" class="zg-link-gray zg-right">更多话题 &raquo;</a>
+
+<h3>热门话题</h3>
+</div>
+<ul class="list hot-topics">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19588303" data-hovercard="t$b$19588303"><img src="https://pic4.zhimg.com/ebec2d3ac_m.jpg" alt="节气" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19588303" target="_blank" data-hovercard="t$b$19588303">节气</a>
+<div class="meta">
+<span>4694 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19865724" data-hovercard="t$b$19865724"><img src="https://pic3.zhimg.com/v2-296f1ee32553f13bb898880477871660_m.jpg" alt="神器" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19865724" target="_blank" data-hovercard="t$b$19865724">神器</a>
+<div class="meta">
+<span>21242 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19559450" data-hovercard="t$b$19559450"><img src="https://pic2.zhimg.com/d3dd87a0feae0a3db82973157eee89c0_m.jpg" alt="机器学习" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19559450" target="_blank" data-hovercard="t$b$19559450">机器学习</a>
+<div class="meta">
+<span>974244 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/41893350" target="_blank">有意义或有意思，感动或开脑洞</a>
+<div class="meta">
+<span>8380 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>2015 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/195628558" target="_blank">真实的外国</a>
+<div class="meta">
+<span>2350 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>551 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/31174528" target="_blank">我认为的精彩回答</a>
+<div class="meta">
+<span>260 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>143 条内容</span>
+</div>
+</div>
+</li>
+
+
+
+<li>
+<div class="content">
+<a href="/collection/70070923" target="_blank">很棒的答案。●▽●</a>
+<div class="meta">
+<span>801 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>274 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/term/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1542091374000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+<meta name="entry" content="ZH.entryExplore" data-module-id="page-main">
+
+<script type="text/zscript" znonce="5fa0c3691db845a799e90070261770bc"></script>
+
+<input type="hidden" name="_xsrf" value="439b4a9b7744a58765231acf8c2a4464"/>
+</body>
+</html>

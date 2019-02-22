@@ -1,0 +1,6 @@
+#LWP-Cookies-2.0
+Set-Cookie3: cookieCheck=29185; path="/"; domain=".login.taobao.com"; path_spec; discard; version=0
+Set-Cookie3: _tb_token_=e855ee7eb5f33; path="/"; domain=".taobao.com"; path_spec; domain_dot; discard; version=0
+Set-Cookie3: cookie2=1395ab7c4909f0798035b33bf2b48eac; path="/"; domain=".taobao.com"; path_spec; domain_dot; discard; HttpOnly=None; version=0
+Set-Cookie3: t=5f79e09ca3b8704d93ec6e799d6806e7; path="/"; domain=".taobao.com"; path_spec; domain_dot; expires="2019-04-03 05:16:48Z"; version=0
+Set-Cookie3: v=0; path="/"; domain=".taobao.com"; path_spec; domain_dot; discard; version=0
